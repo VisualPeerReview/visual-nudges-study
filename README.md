@@ -10,63 +10,6 @@ This project analyzes peer review data from a quasi-experimental, between-cohort
 
 The analysis pipeline includes data cleaning, feature extraction, descriptive statistics, and robust inferential analyses (effect sizes, bootstrap confidence intervals, and nonparametric sensitivity checks).
 
-## Project Structure
-
-```
-.
-├── data/
-│   ├── raw/              # Raw data files (not tracked in git)
-│   ├── clean/            # Cleaned data
-│   └── features/         # Extracted reviewer-level features
-├── results/
-│   ├── tables/           # Statistical tables (CSV format)
-│   └── models/           # Model summaries and diagnostics
-├── 01_data_cleaning.py
-├── 02_descriptive_statistics.py
-├── 03_analysis.py
-├── requirements.txt
-└── README.md
-```
-
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Setup
-
-1. Clone this repository:
-```bash
-git clone https://github.com/yourusername/visual-nudges-study.git
-cd visual-nudges-study
-```
-
-2. Create a virtual environment (recommended):
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Data Preparation
-
-Place your raw data file in the `data/raw/` directory as `peer_review_raw.xlsx`.
-
-The raw data should contain the following columns:
-- `semester`: Academic term (e.g., "Fall 2025")
-- `condition`: Experimental condition ("baseline" or "nudge")
-- `submission_id`: Identifier for the reviewed artifact
-- `rubric_criterion`: Name of evaluation dimension
-- `rubric_score`: Numeric score assigned
-- `written_comment`: Qualitative feedback text
-
 ### Running the Analysis
 
 Execute the scripts in sequence:
@@ -82,20 +25,6 @@ python 02_descriptive_statistics.py
 python 03_analysis.py
 ```
 
-### Output Files
-
-After running the pipeline, you'll find:
-
-**Tables** (`results/tables/`):
-- `table_descriptives_by_condition.csv`: Descriptive statistics by condition
-- `table_effect_sizes_by_condition.csv`: Hedges' g effect sizes
-- `table_bootstrap_ci_by_condition.csv`: Bootstrap 95% confidence intervals
-- `table_wilcoxon_sensitivity.csv`: Nonparametric test results
-- `table_comparative_flag_by_condition.csv`: Binary comparative behavior rates
-- `table_comparative_association_or.csv`: Logistic regression odds ratios
-
-**Models** (`results/models/`):
-- `model_summaries.txt`: Full model output summaries
 
 ## Analysis Methods
 
@@ -139,12 +68,6 @@ The analysis includes:
 
 No anonymization or de-identification procedures were required or performed.
 
-## Reproducibility
-
-Random seed is set to `20260209` for all stochastic procedures (bootstrap resampling).
-
-Python environment details are logged at the end of each script execution.
-
 ## Citation
 
 If you use this code, please cite:
@@ -152,7 +75,7 @@ If you use this code, please cite:
 ```bibtex
 @software{visual_nudges_2026,
   title = {Visual Nudges in Peer Review: Analysis Pipeline},
-  author = {[Your Name]},
+  author = {[Alon Friedman]},
   year = {2026},
   url = {https://github.com/yourusername/visual-nudges-study}
 }
@@ -164,8 +87,10 @@ If you use this code, please cite:
 
 ## Contact
 
-For questions or issues, please open an issue on GitHub or contact [your email].
+For questions or issues, please open an issue on GitHub or contact [alonfriedman@usf.edu].
 
 ## Acknowledgments
 
 This analysis pipeline was developed for research on peer review pedagogies in data visualization education.
+
+Supported by the National Science Foundation - Division of Undergraduate Education (DUE) & Directorate for Education and Human Resources (EHR) - View Grant No. 2216227
