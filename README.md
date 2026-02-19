@@ -68,18 +68,8 @@ The analysis includes:
 
 No anonymization or de-identification procedures were required or performed.
 
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@software{visual_nudges_2026,
-  title = {Visual Nudges in Peer Review: Analysis Pipeline},
-  author = {[Alon Friedman]},
-  year = {2026},
-  url = {https://github.com/yourusername/visual-nudges-study}
-}
-```
+## Website
+For more information, please visit our website: https://visualpeerreview.org/
 
 ## License
 
