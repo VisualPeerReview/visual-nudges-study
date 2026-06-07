@@ -31,7 +31,7 @@ python 03_analysis.py
 
 ### Key Metrics Analyzed
 
-1. **Written Feedback Volume**
+1. **Written Feedback Articulation**
    - Total words across all comments
    - Mean words per comment
 
@@ -43,7 +43,7 @@ python 03_analysis.py
    - Rate of comparative references
    - Binary flag for any comparative language
 
-4. **Score Patterns**
+4. **Score Differentiation**
    - Mean score assigned
    - Standard deviation of scores
    - Score range
@@ -62,12 +62,13 @@ The analysis includes:
 
 ## Data Privacy
 
-**Important**: The datasets contain **NO personal identifiers**. All records consist solely of:
+The datasets included in this repository do **not** contain direct personal identifiers. The available records consist of research variables such as:
+
 - Rubric scores
 - Interaction-derived measures
-- Written peer review comments (contextual feedback on visualizations)
+- Written peer review comments about visualization submissions
 
-No anonymization or de-identification procedures were required or performed.
+The repository is intended to support transparency and reproducibility for the associated publication while avoiding the release of personally identifying information or private platform infrastructure.
 
 ## Website
 For more information, please visit our website: https://visualpeerreview.org/
@@ -81,6 +82,6 @@ For questions or issues, please open an issue on GitHub or contact [alonfriedman
 
 ## Acknowledgments
 
-This analysis pipeline was developed for research on peer review pedagogies in data visualization education.
+This analysis pipeline was developed for research on visual nudges, interface design, and evaluative behavior in visualization-based peer review.
 
-Supported by the National Science Foundation - Division of Undergraduate Education (DUE) & Directorate for Education and Human Resources (EHR) - View Grant No. 2216227
+Supported by the National Science Foundation (NSF) - Division of Undergraduate Education (DUE) & Directorate for Education and Human Resources (EHR) - View Grant No. 2216227
