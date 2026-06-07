@@ -73,8 +73,7 @@ No anonymization or de-identification procedures were required or performed.
 For more information, please visit our website: https://visualpeerreview.org/
 
 ## License
-
-[Choose appropriate license: MIT, Apache 2.0, etc.]
+MIT License
 
 ## Contact
 
