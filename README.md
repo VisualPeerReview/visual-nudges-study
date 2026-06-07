@@ -84,4 +84,4 @@ For questions or issues, please open an issue on GitHub or contact [alonfriedman
 
 This analysis pipeline was developed for research on visual nudges, interface design, and evaluative behavior in visualization-based peer review.
 
-Supported by the National Science Foundation (NSF) - Division of Undergraduate Education (DUE) & Directorate for Education and Human Resources (EHR) - View Grant No. 2216227
+Supported by the National Science Foundation (NSF), Division of Undergraduate Education (DUE), Directorate for Education and Human Resources (EHR), Grant No. 2216227.
