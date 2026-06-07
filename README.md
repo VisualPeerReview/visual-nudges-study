@@ -73,7 +73,7 @@ No anonymization or de-identification procedures were required or performed.
 For more information, please visit our website: https://visualpeerreview.org/
 
 ## License
-MIT License
+This repository is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Contact
 
