@@ -1,14 +1,15 @@
 # Visual Nudges Peer Review Study
 
-This repository contains the analysis pipeline for the **Visual Nudges in Peer Review** study, which examines how interface design affects evaluative behavior in educational peer review contexts.
+This repository contains the analysis pipeline and materials for the **Visual Nudges** study, which examines how lightweight interface interventions structure analytic judgment in visualization-based peer review.
 
 ## Overview
 
 This project analyzes peer review data from a quasi-experimental, between-cohort design comparing:
-- **Baseline condition**: Standard peer review interface
-- **Nudge condition**: Interface with visual nudges encouraging comparative evaluation
 
-The analysis pipeline includes data cleaning, feature extraction, descriptive statistics, and robust inferential analyses (effect sizes, bootstrap confidence intervals, and nonparametric sensitivity checks).
+- **Baseline condition**: Standard peer review interface
+- **Visual Nudge condition**: Interface augmented with lightweight visual nudges that support rubric coverage, feedback articulation, comparative evaluation, and score differentiation
+
+The analysis pipeline includes data cleaning, feature extraction, descriptive statistics, effect-size estimation, bootstrap confidence intervals, nonparametric sensitivity checks, and logistic regression for binary outcomes.
 
 ### Running the Analysis
 
